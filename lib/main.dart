@@ -8,18 +8,20 @@ import 'package:flutter/material.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import 'package:alarm_app/widgets/screen/home_screen.dart';
 import 'package:permission_handler/permission_handler.dart';
-
-String serverUrl = 'http://IP:3000';
-String serverWsUrl = 'http://IP:3001/chat';
+import 'package:flutter_dotenv/flutter_dotenv.dart';
 
 late SharedPreferences prefs;
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
+  await dotenv.load(fileName: ".env");
   await _requestNotificationPermissions();
 
   runApp(const MyApp());
 }
+
+String serverUrl = dotenv.env['SERVER_URL']!;
+String serverWsUrl = dotenv.env['SERVER_WS_URL']!;
 
 Future<void> _requestNotificationPermissions() async {
   if (await Permission.notification.request().isGranted) {
