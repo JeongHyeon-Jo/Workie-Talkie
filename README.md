@@ -46,7 +46,7 @@ socket_io를 사용한 주제에 따른 채팅방을 생성하고, 그 주제에
 - Android Studio (Android 빌드용)
 
 ## 데모 영상
-[![TravelON 시연영상](https://i9.ytimg.com/vi_webp/7A2nEBTF-aY/mq2.webp?sqp=CNSGoL4G-oaymwEoCMACELQB8quKqQMcGADwAQH4AbYIgAKAD4oCDAgAEAEYUSBbKGUwDw==&rs=AOn4CLAHku16YewJUY6BxDHf7Psp3GNABA)](https://youtube.com/shorts/7A2nEBTF-aY)
+[![워키토끼 시연영상](https://i9.ytimg.com/vi_webp/7A2nEBTF-aY/mq2.webp?sqp=CNSGoL4G-oaymwEoCMACELQB8quKqQMcGADwAQH4AbYIgAKAD4oCDAgAEAEYUSBbKGUwDw==&rs=AOn4CLAHku16YewJUY6BxDHf7Psp3GNABA)](https://youtube.com/shorts/7A2nEBTF-aY)
 
 ## 저장소
 [GitHub 저장소](https://github.com/JeongHyeon-Jo/Travel-On/tree/main)
